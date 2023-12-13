@@ -2,3 +2,43 @@
     display: flex;
     justify-content: space-between;
 }
+.slide-1{
+    background-color: #FEEAE9;  
+}
+.btn-1{
+    width: 168px;
+    background-color: #FF136F;
+    color: #FFFFFF;
+    border: 0;
+    height: 50px;
+}
+.doler{
+  color: #FF136F;  
+}
+.card-1{
+    background-color: orange;
+    font-size: 36px;
+    color: #FFFFFF;
+    border-radius: 9px;
+}
+.card-2{
+    background-color: #FF136F;
+    font-size: 36px;
+    color: #FFFFFF;
+    border-radius: 9px;
+}
+.card-3{
+    background-color:rgb(26, 26, 254);
+    font-size: 36px;
+    color: #FFFFFF; 
+    border-radius: 9px; 
+}
+.img-sec{
+    height: 100px;
+    width: 100px;
+    margin-left: 100px;
+   
+}
+.cate{
+    margin-bottom: 24px;
+}
