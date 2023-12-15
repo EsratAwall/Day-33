@@ -4,6 +4,8 @@
 }
 .slide-1{
     background-color: #FEEAE9;  
+    margin-top: 10px;
+    border-radius: 20px;
 }
 .btn-1{
     width: 168px;
@@ -11,6 +13,7 @@
     color: #FFFFFF;
     border: 0;
     height: 50px;
+    
 }
 .doler{
   color: #FF136F;  
@@ -41,4 +44,57 @@
 }
 .cate{
     margin-bottom: 24px;
+    margin-left:27px;
+}
+.container-2{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    margin-left: 27px;
+    margin-bottom: 24px;
+    margin-top: 25px;
+}
+.btn-2{
+    width: 168px;
+    background-color: #000000;
+    color: #FFFFFF;
+    height: 50px;
+   
+
+}
+.shoe-card{
+    width: 360px;
+    box-shadow: 3px 10px 20px 7px rgba(135, 135, 135, 0.2), 3px 10px 20px 7px rgba(135, 135, 135, 0.2);
+}
+.section-4{
+    width: 1212px;
+    height: 455px;
+    background-color: #FFF2F1;
+    margin: auto;
+    margin-top: 71px;
+}
+.stay{
+    font-size: 30px;
+    color: #1F1F1F;
+    padding-top: 146px;
+    margin-left: 455px;
+}
+.get-12{
+    font-size: 16px;
+    color: #707070;
+    margin-left: 455px;
+}
+.last{
+    display: flex;
+    height: 73px;
+    width: 670px;
+    margin:auto;
+    border: 0;
+    padding-left: 20px;
+}
+.btn-3{
+        width: 170px;
+        background-color: #FF136F;
+        color: #FFFFFF;
+        height: 73px;
+        border: 0;
 }
