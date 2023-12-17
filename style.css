@@ -3,7 +3,7 @@
     justify-content: space-between;
 }
 .nav-first{
-    margin-left: 50px;
+    margin-left: 40px;
 }
 .slide-1{
     background-color: #FEEAE9;  
@@ -88,6 +88,7 @@
 }
 .last{
     display: flex;
+    justify-content: space-between;
     height: 73px;
     width: 670px;
     margin:auto;
@@ -95,11 +96,11 @@
     padding-left: 20px;
 }
 .btn-3{
-        width: 170px;
         background-color: #FF136F;
         color: #FFFFFF;
         height: 73px;
         border: 0;
+        width: 120px;
 }
 .form-se{
     background-color: #dadada;
