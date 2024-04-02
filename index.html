@@ -13,21 +13,17 @@
 <body>
     <main class="container">
         <header>
-          <section class="fixed-top ms-5 nav-first">
-            <nav class="navbar navbar-expand-lg bg-body mb-5 ">
+          <section class="fixed-top container">
+            <nav class="navbar navbar-expand-lg bg-body mb-5 d-flex justify-content-between">
                 <div class="container-fluid ">
                     <div class="nav-section-1">
                   <a class="navbar-brand" href="#">
                     <img src="./bootstrap-project/bootstrap-project/images/logo.png" alt="Bootstrap">
                   </a>
-                  <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <button class="navbar-toggler ms-5" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                   </button>
-                  <form class="d-flex " role="search">
-                    <input class="form-control me-2 rounded-5 ms-5 form-se" type="search" placeholder="Search" aria-label="Search">
-                    <i class="fa-solid fa-magnifying-glass"></i>
-
-                  </form>
+                 
                 </div>
                   <div class="collapse navbar-collapse nav-item-1" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
@@ -38,10 +34,10 @@
                         <a class="nav-link text-dark-emphasis ms-4" href="#section-2">Categories</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link disabled text-dark-emphasis ms-4" aria-disabled="true">Shoes</a>
+                        <a class="nav-link disabled text-dark-emphasis ms-4" href="#section-3" aria-disabled="true">Shoes</a>
                       </li>
                       <li class="nav-item">
-                        <a class="nav-link disabled text-dark-emphasis ms-4" aria-disabled="true">Backpack</a>
+                        <a class="nav-link disabled text-dark-emphasis ms-4" href="#section-4" aria-disabled="true">Backpack</a>
                       </li>
                     </ul>
                     
@@ -50,16 +46,16 @@
               </nav>
             </section>
            <section class="slide-1" id="section-1  ">
-        <div id="carouselExampleIndicators" class="carousel slide  ps-5">
+        <div id="carouselExampleIndicators" class="carousel slide rounded-3 ps-5">
             <div class="carousel-indicators">
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
               <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
             </div>
-            <div class="carousel-inner ">
-              <div class="carousel-item active ">
+            <div class="carousel-inner rounded-end-3">
+              <div class="carousel-item active  ">
                 <div class="row">
-                    <div class="col-lg-7 d-flex align-items-center ">
+                    <div class="col-lg-7 d-flex align-items-center pt-lg-0 pt-5">
                         <div>
                         <h1>Mi LED TV 4A PRO 32</h1>
                         <p>Amet minim mollit non deserunt ullamco est sit aliqua dolor 
@@ -124,20 +120,20 @@
         </section>
         </header>
         <section id="section-2">
-            <h2 class="cate">Categories</h2>
+            <h1 class="cate fw-bold mt-5">Categories</h1>
             <div class="container px-4 text-center">
                 <div class="row gx-5">
-                  <div class="col">
+                  <div class="col mb-lg-0 mb-4">
                    <div class="p-3 card-1">Watch
                     <img src="./bootstrap-project/bootstrap-project/images/categories/watch.png" class="img-sec"/>
                    </div>
                   </div>
-                  <div class="col">
+                  <div class="col mb-lg-0 mb-4">
                     <div class="p-3 card-2">Bag
                         <img src="./bootstrap-project/bootstrap-project/images/categories/bag.png" class="img-sec"/>
                     </div>
                   </div>
-                  <div class="col">
+                  <div class="col mb-lg-0 mb-4">
                     <div class="p-3 card-3">Shoes
                         <img src="./bootstrap-project/bootstrap-project/images/categories/shoes.png" class="img-sec"/>
                     </div>
@@ -145,72 +141,72 @@
                 </div>
               </div>
         </section>
-        <section>
-            <h2 class="cate">Shoes</h2>
-            <div class="container-2">
-            <div class="card shoe-card text-center">
+        <section class="container " id="section-3">
+            <h1 class="cate fw-bold mt-5">Shoes</h1>
+            <div class=" row row-cols-1 row-cols-lg-3">
+            <div class="col card shoe-card text-center ms-lg-4 ms-5 me-lg-3 me-0 mb-4">
                 <img src="./bootstrap-project/bootstrap-project/images/shoes/shoe-1.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
                   <p class="card-text">Amet minim mollit non deserunt ullamco 
                     est sit aliqua dolor do amet sint. </p>
                     <h2>$1289</h2>
-                  <a href="#" class="btn btn-primary btn-2">BUY NOW <i class="fa-solid fa-arrow-right"></i></a>
+                  <a href="#" class="btn btn-primary btn-2 pt-2">BUY NOW <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
               </div>
-              <div class="card shoe-card text-center">
+              <div class="col card shoe-card text-center ms-lg-4 ms-5 me-lg-3 me-0 mb-4">
                 <img src="./bootstrap-project/bootstrap-project/images/shoes/shoe-2.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
                   <p class="card-text">Amet minim mollit non deserunt ullamco 
                     est sit aliqua dolor do amet sint. </p>
                     <h2>$1289</h2>
-                  <a href="#" class="btn btn-primary btn-2">BUY NOW  <i class="fa-solid fa-arrow-right"></i></a>
+                  <a href="#" class="btn btn-primary btn-2 pt-2">BUY NOW  <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
               </div> 
-              <div class="card shoe-card text-center">
+              <div class="col card shoe-card text-center ms-lg-4 ms-5 me-lg-3 me-0 mb-4">
                 <img src="./bootstrap-project/bootstrap-project/images/shoes/shoe-3.png" class="card-img-top" alt="...">
                 <div class="card-body">
                   <h5 class="card-title">Reebok Dart Men’s Shoes</h5>
                   <p class="card-text">Amet minim mollit non deserunt ullamco 
                     est sit aliqua dolor do amet sint. </p>
                     <h2>$1289</h2>
-                  <a href="#" class="btn btn-primary btn-2">BUY NOW  <i class="fa-solid fa-arrow-right"></i></a>
+                  <a href="#" class="btn btn-primary btn-2 pt-2">BUY NOW  <i class="fa-solid fa-arrow-right"></i></a>
                 </div>
               </div>
             </div>
         </section>
-        <section>
-          <h2 class="cate">Backpack</h2>
-          <div class="container-2">
-          <div class="card shoe-card text-center">
+        <section class="container" id="section-4">
+          <h2 class="cate fw-bold mt-5">Backpack</h2>
+          <div class=" row row-cols-1 row-cols-lg-3">
+          <div class=" col card shoe-card text-center ms-lg-4 ms-5 me-lg-3 me-0 mb-4">
               <img src="./bootstrap-project/bootstrap-project/images/bags/bag-1.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Ison Backpack</h5>
                 <p class="card-text">Amet minim mollit non deserunt ullamco 
                   est sit aliqua dolor do amet sint. </p>
                   <h2>$1289</h2>
-                <a href="#" class="btn btn-primary btn-2">BUY NOW <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#" class="btn btn-primary btn-2 pt-2">BUY NOW <i class="fa-solid fa-arrow-right"></i></a>
               </div>
             </div>
-            <div class="card shoe-card text-center">
+            <div class=" col card shoe-card text-center ms-lg-4 ms-5 me-lg-3 me-0 mb-4">
               <img src="./bootstrap-project/bootstrap-project/images/bags/bag-2.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Biaowang Backpack</h5>
                 <p class="card-text">Amet minim mollit non deserunt ullamco 
                   est sit aliqua dolor do amet sint. </p>
                   <h2>$799</h2>
-                <a href="#" class="btn btn-primary btn-2">BUY NOW  <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#" class="btn btn-primary btn-2 pt-2">BUY NOW  <i class="fa-solid fa-arrow-right"></i></a>
               </div>
             </div> 
-            <div class="card shoe-card text-center">
+            <div class="col card shoe-card text-center ms-lg-4 ms-5 me-lg-3 me-0 mb-4">
               <img src="./bootstrap-project/bootstrap-project/images/bags/bag-3.png" class="card-img-top" alt="...">
               <div class="card-body">
                 <h5 class="card-title">Dxyizu WS54 Smart</h5>
                 <p class="card-text">Amet minim mollit non deserunt ullamco 
                   est sit aliqua dolor do amet sint. </p>
                   <h2>$699</h2>
-                <a href="#" class="btn btn-primary btn-2">BUY NOW  <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#" class="btn btn-primary btn-2 pt-2">BUY NOW  <i class="fa-solid fa-arrow-right"></i></a>
               </div>
             </div>
           </div>

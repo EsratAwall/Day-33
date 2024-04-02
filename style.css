@@ -8,7 +8,8 @@
 .slide-1{
     background-color: #FEEAE9;  
     margin-top: 100px;
-    border-radius: 20px;
+    border-radius: 10px;
+    
 }
 .btn-1{
     width: 168px;
@@ -49,27 +50,24 @@
     margin-bottom: 24px;
     margin-left:27px;
 }
-.container-2{
-    display: grid;
-    grid-template-columns: repeat(3,1fr);
-    margin-left: 27px;
-    margin-bottom: 24px;
-    margin-top: 25px;
-}
+
+
 .btn-2{
     width: 168px;
     background-color: #000000;
     color: #FFFFFF;
-    height: 50px;
+    height: 45px;
+   align-items: center;
    
 
 }
 .shoe-card{
-    width: 360px;
+    width: 380px;
     box-shadow: 3px 10px 20px 7px rgba(135, 135, 135, 0.2), 3px 10px 20px 7px rgba(135, 135, 135, 0.2);
+    
 }
 .section-4{
-    width: 1212px;
+    width: 100%;
     height: 455px;
     background-color: #FFF2F1;
     margin: auto;
@@ -81,20 +79,47 @@
     padding-top: 146px;
     margin-left: 455px;
 }
+@media only screen and (max-width: 576px) {
+    .stay{
+        font-size: 30px;
+        color: #1F1F1F;
+        padding-top: 100px;
+        margin-left:40px;
+    } 
+  }
 .get-12{
     font-size: 16px;
     color: #707070;
     margin-left: 455px;
 }
+@media only screen and (max-width: 576px) {
+    .get-12{
+        font-size: 16px;
+        color: #707070;
+        margin-left: 40px;
+    
+    } 
+  }
 .last{
     display: flex;
     justify-content: space-between;
     height: 73px;
-    width: 670px;
-    margin:auto;
+    width: 530px;
+    margin-left: 130px;
     border: 0;
-    padding-left: 20px;
+    padding-left: 15px;
 }
+@media only screen and (max-width: 576px) {
+    .last{
+        display: flex;
+        justify-content: space-between;
+        height: 73px;
+        width:140px;
+        margin-left: 30px;
+        border: 0;
+        padding-left: 15px;
+    } 
+  }
 .btn-3{
         background-color: #FF136F;
         color: #FFFFFF;
